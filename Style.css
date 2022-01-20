@@ -3,7 +3,7 @@ body {
     background-size: cover;  
     text-align: center;
     color: red;
-    background: linear-gradient(#747474 0%, #000000 100%)
+    background-color: #000;
 }
 
 header {  
@@ -15,7 +15,8 @@ header {
     top: 5px;   
     display: flex;  
     align-items: center;  
-    box-shadow: 0 0 25px 0 black;  
+    box-shadow: 0 0 25px 0 black; 
+    border-radius: 5%;
     }  
 header * {  
     display: inline;  
@@ -46,6 +47,16 @@ header li a {
     border-style: dashed;
     border-color: rgb(107,107,107);
     border-radius: 50%;
+}
+
+.main-container {
+    background-image: linear-gradient(to right, black, grey);
+    border-radius: 1%;
+    border-color:azure;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 50px;
+
 }
 
 #welcome {

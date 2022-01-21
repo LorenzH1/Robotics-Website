@@ -235,4 +235,10 @@ b {
     transition: 0.3s ease-out;
 }
 
-
+.copyright {
+    font-size: 12px;
+    text-align: center; 
+    padding-top: 8px; 
+    color: white; 
+    line-height: 1.25;
+}

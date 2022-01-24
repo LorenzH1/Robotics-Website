@@ -35,7 +35,7 @@ img {
 
 .logo{
     float: left;
-    width: 135px;
+    width: 150px;
     height: 110px;
     border-width: 4px;
     border-style: solid;
@@ -47,14 +47,6 @@ img {
     transform: scale(0.8);
 }
 
-.profile {
-    width: 25%;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: rgb(107,107,107);
-    border-radius: 50%;
-}
-
 .main-container {
     background-image: linear-gradient(to right, black, grey);
     border-radius: 1%;
@@ -62,10 +54,10 @@ img {
     border-width: 2px;
     border-style: solid;
     padding-top: 50px;
-
+    text-align: center;
 }
 
-#welcome {
+#welcome{
     height: 800px;
     color: red;
     left: 0;
@@ -77,15 +69,6 @@ img {
     width: 100%;
     height: 100%;
     z-index: 9;
-}
-
-.menu {
-    list-style: none;
-    font-family: sans-serif;
-    top: 50px;
-    right: 30px;
-    z-index: 10;
-    cursor: pointer;
 }
 
 .links {
@@ -105,7 +88,7 @@ img {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
     line-height: 1.2;
     font-family: sans-serif;
     font-weight: 500;
@@ -113,26 +96,26 @@ h1 {
 }
 
 #name {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.2;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'American Captain';
     color: red;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 1.2;
     font-family: monospace;
     color: red;
 }
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
+h3{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+    color: red;
 }
 
 p {
@@ -147,48 +130,9 @@ p {
     vertical-align: middle;
 }
 
-hr {
-    background-color: white;
-    height: 1px;
-}
-
 b {
     font-size: 40px;
     padding-bottom: 50px;
-}
-
-.Team{
-    width: 90%;
-    height: 600px;
-    padding: 20px;
-}
-
-.Robot{
-    width: 50%;
-    height: 75%;
-    padding: 20px;
-}
-
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex:1;
-}
-
-.flex-child:first-child{
-    margin-right: 20px;
-}
-
-.Autom-Field{
-    width: 600px;
-    height: 650px;
-}
-
-.Driver-Field{
-    width: 600px;
-    height: 650px;
 }
 
 * {
@@ -222,6 +166,13 @@ b {
 
 .footer-heading h2{
     margin-bottom: 2rem;
+    font-size: 30px;
+    color: red;
+}
+
+.footer-heading h3{
+    font-size: 18px;
+    color: red;
 }
 
 .footer-heading a{

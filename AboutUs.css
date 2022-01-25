@@ -169,6 +169,11 @@ b {
 
 .footer-heading h2{
     margin-bottom: 2rem;
+    color: red;
+}
+
+.footer-heading h3{
+    color: red;
 }
 
 .footer-heading a{

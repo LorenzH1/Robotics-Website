@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="TheRobot.css">
     <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body { background: #000 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+     </style>
 </head>
 
 <body>
@@ -14,11 +20,17 @@
         <a href="Index.html">
             <img src="Lorenz Soap Company.png" class="logo">
         </a>
-        <nav>
-            <ul class="menu">
-                <li class="links"><a href="#TheRobot">The Robot</a></li>
-                <li class="links"><a href="#ContactUs">Contact Us</a></li>
-            </ul>
+        <nav class="navber navbar-expand-md navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto menu">
+                    <li class="links"><a href="#TheRobot">The Robot</a></li>
+                    <li class="links"><a href="#ContactUs">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <br>

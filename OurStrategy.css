@@ -139,7 +139,7 @@ b {
 }
 
 .footer {
-    width: 80%;
+    width: 85%;
     height: 55vh;
     background-color:#212329;
     color:whitesmoke;
@@ -152,11 +152,23 @@ b {
 .footer-heading {
     display: flex;
     flex-direction: column;
-    margin: 4rem;
+    margin: 2rem;
 }
 
 .footer-heading h2{
     margin-bottom: 2rem;
+    font-size: 25px;
+    color: red;
+}
+
+.footer-heading h3{
+    font-size: 18px;
+    color: red;
+}
+
+.footer-heading img{
+    width:25%;
+    height:75%;
 }
 
 .footer-heading a{

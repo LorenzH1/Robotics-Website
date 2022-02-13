@@ -82,9 +82,20 @@ img {
     cursor: pointer;
 }
 
+b{
+    font-size: 50px;
+}
+
 p {
     font-size: 25px;
     position: center;
+}
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 30px;
 }
 
 .parallax-inner {
@@ -97,6 +108,9 @@ p {
 hr {
     background-color: white;
     height: 1px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 b {
@@ -107,11 +121,26 @@ b {
 .Robot{
     width: 80%;
     height: 90%;
+    border-radius: 10%;
     padding: 20px;
 }
 
-.flex-container {
+.flex-container1{
     display: flex;
+}
+
+.flex-container2{
+    display: flex;
+    border-color:azure;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.flex-container3{
+    display: flex;
+    border-color: azure;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .flex-child {

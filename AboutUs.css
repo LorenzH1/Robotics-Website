@@ -48,6 +48,15 @@ b {
   font-size: 40px;
   padding-bottom: 50px;
 }
+
+.hr3{
+  background-color: white;
+  height: 1px;
+  width: 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .Team{
   width:60%;
   height:20%;

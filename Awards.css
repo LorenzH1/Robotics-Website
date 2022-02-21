@@ -63,12 +63,28 @@ h2{
 h3{
   font-size: 30px;
 }
-hr{
+.hr1{
+  background-color: white;
+  height: 1px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr2{
   background-color: white;
   height: 1px;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hr3{
+  background-color: white;
+  height: 1px;
+  width: 15%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-container {

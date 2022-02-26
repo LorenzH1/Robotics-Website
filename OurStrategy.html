@@ -25,7 +25,8 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#automnous">Automnous</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#driver-control">Driver Control</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#main-driver-control"> Main Driver Control Strategy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#secondary-driver-control"> Secondary Driver Control Strategy</a></li>
                     <li class="nav-item"><a class="nav-link" href="#legend">Legend</a></li>
                     <li class="nav-item"><a class="nav-link" href="#timestamps">Timestamps For Driver Period</a></li>
                     <li class="nav-item"><a class="nav-link" href="#ContactUs">Contact Us</a></li>
@@ -48,11 +49,19 @@
                     <br>
                 </div>
                 <br>
-                <div class="flex-child Driver-Control" id="driver-control">
-                    <h2>Driver Control</h2>
+                <div class="flex-child Driver-Control-Main" id="main-driver-control">
+                    <h2>Driver Control(Main Strategy)</h2>
                     <hr class="hr-2">
                     <br>
-                    <img src="VRCVS Field Driver.png" class="Field">
+                    <img src="VRCVS Field Park Driver.png" class="Field">
+                    <br>
+                </div>
+                <br>
+                <div class="flex-child Driver-Control-Secondary" id="secondary-driver-control">
+                    <h2>Driver Control(Secondary Strategy)</h2>
+                    <hr class="hr-2">
+                    <br>
+                    <img src="VRCVS Field Stack Driver.png" class="Field">
                     <br>
                 </div>
                 <br>
@@ -69,12 +78,18 @@
                 </div>
                 <br>
                 <div id="timestamps">
-                    <h2>Timestamps For Driver Period</h2>
+                    <h2>Timestamps For Driver Periods</h2>
                     <hr class="hr-2">
                     <ul class="Timestamps">
                         <li>1:45 - Driver control starts, immediatley get neutral goals to our home zone.</li>
                         <li>0:45 - Prepare to lift mogos onto our alliance platform.</li>
                         <li>0:30 - Balance mogos onto platform, if there is enough time then try to balnance our bot on the platform too.</li>
+                        <br>
+                        <li>1:45 - If automnous misses the small neutral goal, then turn 180 degrees and pick it up in the U-Lift.</li>
+                        <li>1:30 - Clamp down upon the homegoal and wait in the corner of our homezone ('turtle').</li>
+                        <li>0:30 - Prepare to drive up the platform.</li>
+                        <li>0:20 - Park on platform with the neutral goal and homegoal.</li>
+                        <li>If there is enough time, our alliance parthner can stack the other homegoal on the platform along with our robot.</li>
                     </ul>
                 </div>
             </div>
